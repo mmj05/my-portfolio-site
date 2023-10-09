@@ -1,14 +1,14 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 7vh;
 }
 
 .heading {
     margin: 0;
-    padding: 1rem 1rem;
+    padding: 1rem;
     font-size: 1.6rem;
 }
 
@@ -39,7 +39,7 @@ header {
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: right; */
 }
 
 .nav-list li {
