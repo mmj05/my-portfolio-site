@@ -14,28 +14,47 @@ const Header = () => {
                 <a href='#home'>Muhaimin Jobayer</a>
             </h1>
             <div className='navigation'>
-                <div class='menu-icon' onClick={toggleNav}>
-                    <div className={`bar ${isNavOpen ? 'open' : ''}`}></div>
-                    <div className={`bar ${isNavOpen ? 'open' : ''}`}></div>
-                    <div className={`bar ${isNavOpen ? 'open' : ''}`}></div>
+                <div className='menu-icon' onClick={toggleNav}>
+                    <div className={`bar`}></div>
+                    <div className={`bar`}></div>
+                    <div className={`bar`}></div>
                 </div>
+                <nav className={`nav`}>
+                        <ul className='nav-list'>
+                            <li className='nav-item'>
+                                <a href='#about'>About</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='#skills'>Skills</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='#projects'>Projects</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='#contact'>Contact</a>
+                            </li>
+                        </ul>
+                        </nav>
 
-                <nav className='nav'>
-                    <ul className='nav-list'>
-                        <li className='nav-item'>
-                            <a href='#about'>About</a>
-                        </li>
-                        <li className='nav-item'>
-                            <a href='#skills'>Skills</a>
-                        </li>
-                        <li className='nav-item'>
-                            <a href='#projects'>Projects</a>
-                        </li>
-                        <li className='nav-item'>
-                            <a href='#contact'>Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+                    {isNavOpen ? (
+                      <nav className={`mobile-nav ${isNavOpen ? 'active' : ''}`}>
+                        <ul className='mobile-nav-list'>
+                            <li onClick={toggleNav} className='mobile-nav-item'>
+                                <a href='#about'>About</a>
+                            </li>
+                            <li onClick={toggleNav} className='mobile-nav-item'>
+                                <a href='#skills'>Skills</a>
+                            </li>
+                            <li onClick={toggleNav} className='mobile-nav-item'>
+                                <a href='#projects'>Projects</a>
+                            </li>
+                            <li onClick={toggleNav} className='mobile-nav-item'>
+                                <a href='#contact'>Contact</a>
+                            </li>
+                        </ul>
+                        </nav>
+                    ) : null}
+                
             </div>
         </header>
     );
