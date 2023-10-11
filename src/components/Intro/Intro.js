@@ -1,11 +1,11 @@
 import './Intro.css';
-import image from '../../assets/profile-3.jpg';
+import image from '../../assets/profile.jpg';
 
 const Intro = () => {
   return (
     <section className="intro">
       <div className='profile-pic'>
-        <img src={image} alt='Muhaimin' />
+        <img src={image} alt='Muhaimin' className='dp' />
       </div>
       <div className='bio'>
         <h1>Muhaimin Jobayer</h1>

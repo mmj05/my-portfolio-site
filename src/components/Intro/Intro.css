@@ -4,11 +4,10 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* height: 70vh; */
     margin-top: 0.8rem;
 }
 
-img {
+.dp {
     border-radius: 50%;
     width: 400px;
 }

@@ -1,0 +1,46 @@
+#about {
+       margin-top: 5rem;
+}
+
+#about h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-container {
+    padding: 1.5rem;
+    
+}
+
+
+.about-container p {
+    font-size: 0.9rem;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.about-dp {
+    width: 300px;
+    border-radius: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 769px) {
+    .about-container {
+        width: 50%;
+        
+    }
+}
+
