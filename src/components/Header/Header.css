@@ -1,4 +1,138 @@
-header {
+/* Header.css */
+
+/* Header.css */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    padding: 0 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .heading a {
+    text-decoration: none;
+    color: #000; /* Set the default color for the links */
+    transition: color 0.3s;
+  }
+
+  .heading a:hover {
+    color: #61aaea; /* Set the color you want on hover */
+  }
+
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar {
+    background-color: #000;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+    transition: 0.4s;
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    padding-right: 1rem;
+  }
+  
+  .nav {
+    display: block;
+    text-align: right;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-list li {
+    list-style: none;
+    padding: 1rem 1.5rem;
+  }
+  
+  .nav-list li a {
+    color: #000; /* Set the default color for the links */
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition for the link color */
+  }
+  
+  .nav-list li a:hover {
+    color: #61aaea; /* Set the color you want on hover */
+  }
+
+  @media screen and (max-width: 767px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .mobile-nav {
+      position: absolute;
+      top: 7vh;
+      right: 0;
+      left: 0;
+      z-index: 1;
+      text-align: left;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .mobile-nav-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mobile-nav-list li a {
+      color: #000; /* Set the default color for the links */
+      text-decoration: none;
+      transition: color 0.3s; /* Add a smooth transition for the link color */
+    }
+    
+    .mobile-nav-list li a:hover {
+      color: #61aaea; /* Set the color you want on hover */
+    }
+  
+    .mobile-nav-item {
+      list-style: none;
+      padding: 1rem 0;
+    }
+  
+    .bar {
+      display: block;
+    }
+  
+    .mobile-nav.active {
+      display: block;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
+  
+  
+
+/* header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -39,8 +173,8 @@ header {
 .nav-list {
     display: flex;
     flex-direction: row;
-    /* justify-content: right; */
-}
+    justify-content: right;
+ }
 
 .nav-list li {
     list-style: none;
@@ -69,24 +203,28 @@ li a {
         cursor: pointer;
         padding-right: 1rem;
     }
-  
 
-     .mobile-nav {
+    mobile-nav {
         position: absolute;
-        top: 4rem;
         right: 0;
         left: 0;
         z-index: 1;
         text-align: left;
         padding: 10px;
         background: #000;
-        opacity: 0.5;
+        opacity: 1; /* Increase opacity for better visibility
+        transition: top 0.4s; /* Add a smooth transition for top property
     }
 
     .mobile-nav li {
         padding: 5px;
-
         list-style: none;
+        background: #000;
+        
+    }
+
+    .mobile-nav ul li a {
+        color: lightgray;
     }
 
     .mobile-nav.active {
@@ -95,6 +233,5 @@ li a {
 
     .nav-item {
         margin: 10px 0;
-    } 
-}
-
+    }
+} */

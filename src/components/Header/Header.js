@@ -9,9 +9,9 @@ const Header = () => {
         setIsNavOpen(!isNavOpen);
     };
     return (
-        <header className='header'>
+        <header className='header' id='home'>
             <div className='heading'>
-                <a href='#home'>{`<Muhaimin/>`}</a>
+                <a href='#home'>{`<MJ/>`}</a>
             </div>
             <div className='navigation'>
                 <div className='menu-icon' onClick={toggleNav}>
