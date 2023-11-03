@@ -1,24 +1,36 @@
-/* Contact.css */
-
-/* Contact section styles */
 .contact-section {
-    background-color: #f0f0f0;
     padding: 60px 0;
     text-align: center;
+    background-color: #f2f5ff;
 }
 
 .section-title {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 110px; /* Adjust the width as needed */
+    height: 4px; /* Adjust the height as needed */
+    background-color: #0f53ff; /* Use the blue color you prefer */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .section-description {
     font-size: 16px;
     margin-bottom: 30px;
+    color: #222;
 }
 
-/* Contact form styles */
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
@@ -33,7 +45,7 @@ label {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
-    color: #333;
+    color: #222;
 }
 
 input[type="text"],
@@ -61,9 +73,8 @@ button[type="submit"]:hover {
     background-color: #258cd1;
 }
 
-/* Validation error message styles */
 .validation-error {
-    color: #e74c3c; /* Red color for error messages */
+    color: #e74c3c;
     font-size: 14px;
     margin-top: 5px;
 }

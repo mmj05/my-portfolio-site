@@ -1,75 +1,104 @@
 /* Projects.css */
 
-/* Desktop styles */
-.projects-section {
-    background-color: #f0f0f0;
-    padding: 60px 0;
-    text-align: center;
+#projects {
+    padding: 5rem 5rem;
 }
 
-.section-title {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 30px;
+.projects-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+#projects h2::after {
+    content: '';
+    display: block;
+    width: 110px; /* Adjust the width as needed */
+    height: 4px; /* Adjust the height as needed */
+    background-color: #0f53ff; /* Use the blue color you prefer */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .projects-container {
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: center; /* Align projects in two columns */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .project {
-    width: calc(50% - 15px); /* 50% width for two columns with spacing */
-    margin: 15px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #edf8ff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 1.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    min-width: calc(42% - 20px); /* Adjust for the number of projects per row */
+    max-width: calc(42% - 20px);
 }
 
 .project-screenshot {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .project-title {
-    color: #3498db;
-    font-size: 18px;
-    background-color: #fff;
+    font-size: 1.5rem;
+    color: #222;
+    padding: 1rem;
+    text-align: center;
 }
 
 .project-description {
-    font-size: 16px;
-    margin-bottom: 10px;
-    background-color: #fff;
+    font-size: 1rem;
+    color: #222;
+    padding: 1rem;
+    line-height: normal;
+    text-align: left;
+}
+
+.project-description .highlighted-word {
+    color: #d50000; /* You can change this color to your preference */
+    font-weight: bold;
+    font-size: 1.1;
 }
 
 .project-links {
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
 
 .project-links a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 14px;
+    color: #0f53ff;
+    margin: 0 1rem;
+    font-weight: 700;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
+.project-links a:hover {
+    color: #000;
+}
+
+@media (max-width: 767px) {
     .projects-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .project {
-        width: 95%; /* Full width for mobile */
-    }
-
-    .section-title {
-        font-size: 24px; /* Adjust font size for mobile */
-    }
+        min-width: calc(90% - 20px);
+  }
 }
