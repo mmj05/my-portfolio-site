@@ -33,7 +33,8 @@
 }
 
 .footer a:hover {
-  color: #d00000;
+  color: #f2f2f2;
+  text-decoration: underline;
 }
 
 .social-icon {
