@@ -16,7 +16,7 @@
 .section-title::after {
     content: '';
     display: block;
-    width: 110px; /* Adjust the width as needed */
+    width: 185px; /* Adjust the width as needed */
     height: 4px; /* Adjust the height as needed */
     background-color: #0f53ff; /* Use the blue color you prefer */
     position: absolute;
