@@ -30,15 +30,17 @@ const Footer = () => {
                 </div>
                 <div className='footer-social'>
                     {/* Add your social media links/icons here */}
-                    <a href='https://github.com/mmj05' className='social-icon'>
+                    <a
+                        href='https://github.com/mmj05'
+                        className='social-icon'
+                        target='blank'
+                    >
                         <i class='bi bi-github'></i>
                     </a>
 
                     <a
-                        href='https://www.linkedin.com/in/
-muhaimin-jobayer
-
-'
+                        href='https://www.linkedin.com/in/muhaimin-jobayer'
+                        target='blank'
                         className='social-icon'
                     >
                         <i class='bi bi-linkedin'></i>
