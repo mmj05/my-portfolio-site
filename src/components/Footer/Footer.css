@@ -47,3 +47,30 @@
 .social-icon i {
     font-size: 1.5rem;
 }
+
+@media (max-width: 767px) {
+    .footer {
+        text-align: center; /* Center align content on small screens */
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-logo a {
+        display: none;
+    }
+
+    .footer-links a {
+        font-size: 1rem;
+    }
+
+    .social-icon {
+        font-size: 1.2rem; /* Slightly larger font size for social icons on small screens */
+        margin: 0.5rem; /* Reduced margin for social icons on small screens */
+    }
+
+    .footer-social {
+        margin-top: 1rem;
+    }
+}
