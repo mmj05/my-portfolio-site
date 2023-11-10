@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header className='header' id='home'>
             <div className='heading'>
-                <a href='#home'>{`<MJ/>`}</a>
+                <a href='#home'>Muhaimin</a>
             </div>
             <div className='navigation'>
                 <div className='menu-icon' onClick={toggleNav}>
