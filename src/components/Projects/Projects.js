@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'Library Store',
-            description: `The Library Store is a comprehensive web application built using React, TypeScript, Spring Boot, and PostgreSQL. It offers a seamless library experience for both users and administrators.`,
+            description: `Designed and implemented a user-centric, full-stack library system utilizing React, TypeScript, Spring Boot, PostgreSQL, and Okta authentication. This comprehensive solution optimizes the book selection and borrowing process for an enhanced user experience. Integrated Stripe API to facilitate a streamlined checkout process. Established efficient communication between users and administrators, ensuring prompt issue resolution.`,
             imageUrl: loveToRead,
             githubLink: 'https://github.com/mmj05',
             liveDemoLink: 'https://library-app-pearl.vercel.app/home',
@@ -23,7 +23,7 @@ const Projects = () => {
         {
             title: 'Recipe Search App',
             description:
-                'Recipe Search is a user-friendly web application that leverages the power of jQuery and the RapidAPI integration to provide users with access to millions of delectable recipes at their fingertips.',
+                'The application empowers users to effortlessly search for recipes by dish name or available ingredients, simplifying meal planning. Built using jQuery, it seamlessly melds data from two disparate APIs, providing users with a comprehensive and diverse recipe library that expands their culinary horizons.',
             imageUrl: recipeApp,
             githubLink: 'https://github.com/mmj05/recipe-search-app',
             liveDemoLink: 'https://mmj05.github.io/recipe-search-app/',
@@ -52,8 +52,8 @@ const Projects = () => {
                                         word === 'TypeScript,' ||
                                         word === 'Spring' ||
                                         word === 'Boot,' ||
-                                        word === 'PostgreSQL.' ||
-                                        word === 'jQuery'
+                                        word === 'PostgreSQL,' ||
+                                        word === 'jQuery,'
                                     ) {
                                         return (
                                             <span
