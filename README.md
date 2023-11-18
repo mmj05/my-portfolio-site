@@ -8,9 +8,7 @@ Welcome to the GitHub repository for Muhaimin Jobayer's portfolio website. This 
 - [Skills](#skills)
 - [Projects](#projects)
 - [Contact](#contact)
-- [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## About Me
 
@@ -34,4 +32,3 @@ Have questions or interested in collaboration? Reach out to me through the conta
 - CSS
 
 Feel free to explore the live demo: [Muhaimin Jobayer](https://muhaimin-jobayer.onrender.com)
-
