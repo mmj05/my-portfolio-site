@@ -43,6 +43,12 @@
     margin-bottom: 1.5rem;
 }
 
+.about-container p span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0f53ff;
+}
+
 .about-dp {
     width: 300px;
     border-radius: 1.5rem;
