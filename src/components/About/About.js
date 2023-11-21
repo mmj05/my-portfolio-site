@@ -11,7 +11,7 @@ const About = () => {
                         Greetings! I am Muhaimin, a full-stack software
                         engineer with a focus on <span>React, TypeScript, Java, Spring
                         Boot,</span> and proficient database management using
-                        <span> PostgreSQL and MySQL</span>. My passion lies in crafting
+                        <span> PostgreSQL</span>. My passion lies in crafting
                         seamless user interfaces and architecting robust backend
                         systems, addressing the complexities of modern web
                         development. Over the course of my career, I have
