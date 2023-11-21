@@ -24,11 +24,12 @@ const Skills = () => {
                     <ul className='skill-items'>
                         <li><i className="bi bi-patch-check-fill"></i>Java</li>
                         <li><i className="bi bi-patch-check-fill"></i>Spring Boot</li>
+                        <li><i className="bi bi-patch-check-fill"></i>SQL</li>
+                        <li><i className="bi bi-patch-check-fill"></i>PostgreSQL</li>
                         <li><i className="bi bi-patch-check-fill"></i>Node.js</li>
                         <li><i className="bi bi-patch-check-fill"></i>Express.js</li>
-                        <li><i className="bi bi-patch-check-fill"></i>SQL</li>
                         <li><i className="bi bi-patch-check-fill"></i>MySQL</li>
-                        <li><i className="bi bi-patch-check-fill"></i>PostgreSQL</li>
+                        
                     </ul>
                 </div>
                 <div className='skill-list'>
@@ -37,8 +38,8 @@ const Skills = () => {
                         <li><i className="bi bi-patch-check-fill"></i>Unit Testing</li>
                         <li><i className="bi bi-patch-check-fill"></i>RESTful APIs</li>
                         <li><i className="bi bi-patch-check-fill"></i>Git</li>
+                        <li><i className="bi bi-patch-check-fill"></i>Docker</li>
                         <li><i className="bi bi-patch-check-fill"></i>GitHub</li>
-                        <li><i className="bi bi-patch-check-fill"></i>Postman</li>
                     </ul>
                 </div>
             </div>
